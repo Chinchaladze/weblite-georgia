@@ -289,7 +289,7 @@ nav .links .fa-xmark {
 }
 
 .follow-us form input::placeholder {
-   font-size: 13px;
+   font-size: 15px;
 }
 
 .follow-us form .email {
@@ -449,14 +449,14 @@ nav .links .fa-xmark {
    align-items: center;
    gap: 20px;
    padding: 100px 0px;
-   background: #eaebee;
+   background: #FFFFFF;
 }
 
 .last-product label {
    width: 1000px;
    display: flex;
    justify-content: space-between;
-   padding: 0px 20px;
+   padding: 0px 0px;
    padding-bottom: 20px;
    border-bottom: 2px solid rgba(0, 0, 0, 0.20);
 }
@@ -470,7 +470,7 @@ nav .links .fa-xmark {
 }
 
 .last-product .link a {
-   font-size: 18px;
+   font-size: 15px;
    font-style: normal;
    font-weight: 600;
    line-height: normal;
@@ -496,30 +496,30 @@ nav .links .fa-xmark {
    }
 }
 
-
 .prod-section .prod-items {
-   background-color: var(--BG_Color);
    width: 100%;
-   padding: 15px 20px;
-   border-radius: 10px;
+   padding: 15px 15px;
+   border-radius: 5px;
    display: flex;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .prod-section .prod-items a {
-   width: 190px;
-   height: 140px;
-   border-radius: 10px;
-   background: black;
+   width: 250px;
+   height: 145px;
+   border-radius: 5px;
+   background: var(--Main_Color);
 }
 
 .prod-section .prod-items img {
    width: 100%;
    height: 100%;
-   border-radius: 10px;
+   border-radius: 5px;
 }
 
 .prod-section .prod-items img:hover {
-   opacity: 0.6;
+   opacity: 0.8;
 }
 
 .prod-section .prod-items .prod-information {
@@ -551,26 +551,17 @@ nav .links .fa-xmark {
 }
 
 .prod-name {
-   font-size: 17px;
+   font-size: 16px;
    font-style: normal;
    font-weight: 500;
    line-height: normal;
    color: rgba(0, 0, 0, 0.90);
 }
 
-.prod-name span {
-   margin-left: 6px;
-   font-size: 17px;
-   font-style: normal;
-   font-weight: 500;
-   line-height: normal;
-   color: var(--Text_Color);
-}
-
 .prod-author,
 .prod-lang,
 .prod-date {
-   font-size: 16px;
+   font-size: 14px;
    font-style: normal;
    font-weight: 500;
    line-height: normal;
@@ -583,7 +574,7 @@ nav .links .fa-xmark {
    margin-right: 5px;
 }
 
-@media screen and (max-width:790px) {
+@media screen and (max-width:750px) {
    .prod-section .prod-items {
       flex-direction: column;
       justify-content: center;
@@ -609,17 +600,19 @@ nav .links .fa-xmark {
    .prod-section .prod-items .prod-information .left {
       margin-left: 0px;
       margin-top: 15px;
+      text-align: center;
       gap: 10px;
    }
 
    .prod-section .prod-items .prod-information .right {
       margin-top: 20px;
       width: 100%;
+      text-align: center;
    }
 
    .prod-section .prod-items .prod-information .right .prod-price {
       width: 100%;
-      text-align: left;
+      text-align: center;
    }
 }
 
